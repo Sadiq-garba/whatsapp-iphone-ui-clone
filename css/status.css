@@ -1,0 +1,238 @@
+
+   html, body{ 
+    background-color: rgb(5, 5, 5) !important;
+    width:auto !important;
+    overflow-x:hidden !important ;
+
+    }
+    .cont{
+      
+      width:100%;
+      height:700px;
+      background:rgb(22, 22, 22);
+      padding: 10px;
+     
+
+    }
+
+
+    .main{
+      
+      width:100%;
+      height:100px;
+      background:rgb(22, 22, 22);
+      padding: 10px;
+     
+
+    }
+
+    .pic{
+     
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      border:2px solid rgb(139, 185, 228);
+     
+
+    }
+  
+    .text{
+      color:white;
+      font-weight:600;
+      margin-left:1px;
+      position:relative; 
+      left:10px;
+     
+    }
+
+    .box-icon{
+      position:relative;
+      top:280px;
+    }
+
+    .time{
+      display:block; 
+      position:relative; 
+      left:60px;
+      bottom:30px;
+      font-weight:400;
+      color:rgb(77, 77, 77);
+      margin:0;
+      border-bottom:1px solid gray;
+      width:500px;
+      padding:3px;
+
+
+    }
+
+    .main-time{
+      display:block; 
+      position:relative; 
+      left:80px;
+      bottom:30px;
+      font-weight:400;
+      color:rgb(77, 77, 77);
+      margin:0;
+      width:270px;
+      padding:3px;
+
+
+    }
+    .search{
+      
+      background:rgb(22, 22, 22);
+      width:450px;
+      border-radius: 15px;
+      margin:0 auto;
+      display: block;
+      border: 0ch;
+      padding: 7px;
+      
+    }
+    .apple-text{
+      color:white;
+      font-size: 30px;
+      font-weight:700;
+
+    }
+    .icon{
+     position:relative;
+     left:550px;
+     bottom:60px;
+     color:rgb(81, 81, 196);
+     
+    
+    }
+
+    .icon-edit{
+     position:relative;
+     left:590px;
+     bottom:60px;
+     color:rgb(81, 81, 196);
+     
+    
+    }
+
+    .fa{
+       background-color:rgb(56, 56, 56);
+       padding:6px;
+       border-radius: 50%;
+
+    }
+
+    .icon-plus{
+     position:relative;
+     right:22px;
+     top:25px;
+     color:rgb(249, 249, 252);
+     background-color:rgb(81, 81, 196); 
+     padding:3px;
+     border-radius: 50%;
+    }
+
+    .icon-search{
+     position:relative;
+     left:150px;
+     bottom:35px;
+     color:rgb(81, 81, 196);
+     
+    
+    }
+
+
+    
+    .icon-bottom{
+     font-size:25px ;
+     color:rgb(108, 108, 108);
+     
+    
+    }
+
+    .footer{
+      height:50px;
+      width:100%;
+      background-color:rgb(56, 56, 56);
+      position:fixed;
+      bottom:0;
+    }
+   
+    .footer-icon{
+      
+     display:flex;
+     justify-content: space-between;
+    
+
+    
+    }
+
+    .main-select{
+      
+      color:rgb(81, 81, 196);    
+
+    }
+
+    .icon-text{
+        position:relative;
+        top:18px;
+        right:30px;
+        color:gray;
+    }
+  
+    
+   @media screen and (max-width:800px) {
+    
+    .icon{
+     position:relative;
+     left:260px;
+     bottom:60px;
+     color:rgb(81, 81, 196);
+     
+    
+    }
+
+    .icon-edit{
+     position:relative;
+     left:270px;
+     bottom:60px;
+     color:rgb(81, 81, 196);
+     
+    
+    }
+
+    .icon-search{
+     position:relative;
+     left:5px;
+     bottom:35px;
+     color:rgb(81, 81, 196);
+     
+    
+    }
+    .time{
+      display:block; 
+      position:relative; 
+      left:60px;
+      bottom:30px;
+      font-weight:400;
+      color:rgb(77, 77, 77);
+      margin:0;
+      border-bottom:1px solid gray;
+      width:270px;
+      padding:3px;
+
+
+    }
+
+    .search{
+      
+      background:rgb(22, 22, 22);
+      width:350px;
+      border-radius: 15px;
+      margin:0 auto;
+      display: block;
+      border: 0ch;
+      padding: 7px;
+      
+    }
+
+
+   }
